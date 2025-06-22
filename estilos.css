@@ -1,50 +1,86 @@
+.principal {
+  position: relative;
+  font-family: 'PlayFair Display', serif;
+  text-align: center;
+  font-size: 25px;
+  background-color: #7b3f61;
+  padding: 2rem;
+  color: white;
+}
 
-header{
-    font-family: 'PlayFair Display',serif;
-    text-align: center;
-    font-size: 25px;
-    background-color:#7b3f61;
-    padding: 2rem; 
+.iconos-redes p{
+  color:black;
+  font-size: 15px;
+}
+
+.iconos-redes {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  display: flex;
+  gap: 10px;
+}
+
+.iconos-redes img {
+  width: 40px;
+  height: 40px;
+  transition: transform 0.3s ease;
+}
+
+.iconos-redes img:hover {
+  transform: scale(1.2);
+}
+.secundario{
+  text-align: center;
+  font-size: 25px;
+  padding: 0.5rem;
+  background-color: #a99bbf;
+} 
+.terciario{
+  text-align: center;
+  font-size: 25px;
+  padding: 0.5rem;
+  background-color: #f5f0e1;
+
+}
+.cuarto{
+  text-align: center;
+  font-size: 25px;
+  padding: 0.5rem;
+  background-color: #4a6d7c;
 }
 .menu{
-    font-family: 'PlayFair Display',serif;
-    background-color: #a99bbf;
-    padding: 25px;
-    display: flex;
-    justify-content: center;
-    gap: 25px;
-    text-decoration: none;
-    transition: color 0.3s
+  font-family: 'PlayFair Display',serif;
+  background-color: #a99bbf;
+  padding: 25px;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  text-decoration: none;
+  transition: color 0.3s;
 }
 .menu a:hover{
-    color:black;
+  color:black;
 }
-.redes a:hover{
-    color: black;
-}
+
 body{
-    background-color: #dcd6d5;
+   background-color: #dcd6d5;
 }
 h2{
-    font-family: 'PlayFair Display',serif;
-    font-size: 1.1rem;
+   font-family: 'PlayFair Display',serif;
 }
 p{
-    font-size: 0.9rem;
-    line-height: 1.6;
-    color: #444;
-    margin-bottom: 1em;
-    text-align: justify;
+  font-size: 0.9rem;
+  line-height: 1.6;
+  color: #444;
+  margin-bottom: 1em;
+  text-align: justify;
 }
 p, a, li, label, input, select {
   font-family: 'Open Sans', sans-serif;
   font-size: 0.9rem;
 }
-.redes a {
-  margin: 0 px;
-  text-decoration: none;
-  transition: color 0.3s
-}
+
 textarea{
   width: 100%;            
   max-width: 450px;       
@@ -57,3 +93,62 @@ textarea{
   resize: vertical;      
   box-sizing: border-box;
 }
+.contenedor p{
+  padding: 0rem;
+  font-size: 25px;
+  text-align: center;
+}
+.contenedor{
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  padding: 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.tarjeta{
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease;
+}
+.tarjeta p{
+  font-size: 15px;
+  text-align: justify;
+}
+.tarjeta h2{
+  text-align: center;
+}
+.galeria-imagenes{
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+.galeria-imagenes img{
+  width: 200px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 2px 2px 6px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease;
+}
+.galeria-imagenes img:hover{
+  transform: scale(1.05);
+}
+.iconos{
+  position: fixed;
+  top: 20px;
+  right: 40px;
+  width: 80px;
+  height: auto;
+  opacity: 0.9;
+  z-index: 1000;
+}
+.volver p{
+  text-align: center;
+  font-size: 20px;
+}
+
