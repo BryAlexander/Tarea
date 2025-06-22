@@ -1,0 +1,25 @@
+
+header{
+    font-family: "rubik", sans-serif;
+    text-align: center;
+    font-size: 25px;
+    background-color:#7b3f61;
+    padding: 2rem; 
+    
+}
+.menu{
+    background-color: #a99bbf;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    text-decoration: none;
+    transition: color 0.3s
+    
+}
+.menu a:hover{
+    color:black;
+}
+body{
+    background-color: #dcd6d5;
+}
