@@ -1,13 +1,13 @@
 
 header{
-    font-family: "rubik", sans-serif;
+    font-family: 'PlayFair Display',serif;
     text-align: center;
     font-size: 25px;
     background-color:#7b3f61;
     padding: 2rem; 
-    
 }
 .menu{
+    font-family: 'PlayFair Display',serif;
     background-color: #a99bbf;
     padding: 25px;
     display: flex;
@@ -15,11 +15,45 @@ header{
     gap: 25px;
     text-decoration: none;
     transition: color 0.3s
-    
 }
 .menu a:hover{
     color:black;
 }
+.redes a:hover{
+    color: black;
+}
 body{
     background-color: #dcd6d5;
+}
+h2{
+    font-family: 'PlayFair Display',serif;
+    font-size: 1.1rem;
+}
+p{
+    font-size: 0.9rem;
+    line-height: 1.6;
+    color: #444;
+    margin-bottom: 1em;
+    text-align: justify;
+}
+p, a, li, label, input, select {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.9rem;
+}
+.redes a {
+  margin: 0 px;
+  text-decoration: none;
+  transition: color 0.3s
+}
+textarea{
+  width: 100%;            
+  max-width: 450px;       
+  height: 100px;          
+  padding: 10px;          
+  font-family: 'Open Sans', sans-serif;  
+  font-size: 16px;
+  border: 1px solid #ccc;   border-radius: 8px;     
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.1); 
+  resize: vertical;      
+  box-sizing: border-box;
 }

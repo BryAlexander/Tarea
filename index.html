@@ -7,6 +7,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
     <title>Página Principal</title>
 </head>
 <body>
@@ -16,30 +19,57 @@
     <nav class="menu">
         <a href="index.html">Inicio</a>
         <a href="libros.html">Libros</a>
-        <a href="peliculas.html">Peliculas</a>
+        <a href="peliculas.html">Películas</a>
         <a href="videojuegos.html">Videojuegos</a>
+        <a href="#acerca">Acerca de mi</a>
         <a href="#contactos">Contactos</a>
         <a href="#video">Video Explicativo</a>
     </nav>
-
     <section>
-        <p>Mi sitio Web contiene reseñas de libros, peliculas y videojuegos. Elige una Categoria para explorar:</p>
-       <nav>
-        <ul>
-         <li>   
-            <a href="libros.html">Reseñas de Libros</a> <br>
-            <img src="iconos/libro.jpg" alt="Icono de libro">
-        </li>
-         <li><a href="peliculas.html">Reseñas de Peliculas</a><br>
-            <img src="iconos/pelicula.jpg" alt="Icono de pelicula">
-        </li>
-         <li><a href="videojuegos.html">Reseñas de Videojuegos</a><br>
-            <img src="iconos/videojuego.jpg" alt="Icono de videojuego">
-        </li>
-        </ul>
-       </nav>
+        <h2>Explora las reseñas de mi contenido favorito</h2>
+        <p>En este sitio encontraras reseñas honestas y personales sobre libros, peliculas y videojuegos</p>
     </section>
-    <footer>
+    <section id="acerca">
+        <h2>Acerca de mi</h2>
+        <p>
+            Soy estudiante de la Universidad Particular de Loja, actualmente curso el cuarto ciclo de la carrera de Tecnologias de la Información.
+            Me apasiona la tecnologia tanto como las buenas historias, especialmente aquellas que exploran los limites de la imaginación y la mente humana.
+        </p>
+        <p>
+            Tengo un profundo interés por la ciencia ficción, el terror psicológico y los relatos con temáticas oscuras.
+            Este sitio nace de mi entusiasmo por compartir reseñas sinceras y personales sobre libros, peliculas y videojuegos, que marcan, impactan y hacen reflexionar.
+        </p>
+        <p>
+            Mi objetivo es ayudarte a descubrir contenido que no solo entretenga, sino que tambien te haga pensar y sentir. ¡Gracias por ser parte de esta comunidad!
+        </p>
+    </section>
+    <section>
+        <h2>Video explicativo</h2>
+    </section>
+    <section id="Contactos">
+        <h2>Sugiere una nueva reseña</h2>
+        <form>
+            <label for="titulo">Titulo Sugerido:</label><br>
+            <input type="text" id="titulo" name ="titulo"><br>
+            
+            <label for="categoria">Categoría</label><br>
+            <select id="categoria" name="categoria">
+               <option value="libro">Libro</option>
+               <option value="pelicula">Película</option>
+               <option value="videojuego">Videojuego</option>
+            </select><br><br>
+
+            <label for="comentario">¿Por qué lo recomiendas?</label><br>
+            <textarea id="comentario" name="comentario"></textarea><br>
+
+            <button type="submit">Enviar sugerencia</button>
+        </form>
+    </section>
+    <footer class="redes">
+        <p>Sígueme en:</p>
+        <a href="#">Instagram</a>
+        <a href="#">Youtube</a>
+        <a href="#">Facebook</a>
         <p>@ 2025 Sitio de Reseñas</p>
     </footer>
 </body>
